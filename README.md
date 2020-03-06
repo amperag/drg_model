@@ -10,3 +10,5 @@ Adapt setwd() in model.R to your working environment.
 Run the code.
 
 Fingers crossed there should be a png-file with the DRG ARIMA model in the root folder.
+
+Credits: The base data in "charts.csv" was downloaded from the awesome SteamDB, so full credit goes to them.
