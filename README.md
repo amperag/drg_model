@@ -21,4 +21,4 @@ Fingers crossed there should be a png-file with the DRG ARIMA model in the root 
 
 # Credits
 
-Credits: The base data in "charts.csv" was downloaded from the awesome SteamDB, so full credit goes to them.
+The base data in "charts.csv" was downloaded from the awesome SteamDB, so full credit goes to them.
