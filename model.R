@@ -1,6 +1,6 @@
 #Setup
 
-setwd("~/00 Privat/spiele/drg/model 1")
+#setwd("...")
 
 #Import
 
