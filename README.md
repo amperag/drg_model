@@ -3,7 +3,7 @@ A very simple ARIMA model for the online game Deep Rock Galacitc coded using R.
 
 # Requirements
 
-I use the up-to-date version of RStudio for this model.
+I used the up-to-date version of RStudio for this model.
 
 Everything is coded in R.
 
