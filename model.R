@@ -12,7 +12,7 @@ data_selection <- data[455:length(data[,2]),1:2]
 
 data_selection$Date <- substr(data_selection$Date, 1, 10)
 
-data_selection$Date <- as.Date(data_selection$Date, format = "%d.%m.%Y")
+data_selection$Date <- as.Date(data_selection$Date, format = "%Y-%m-%d")
 
 #Analysis
 
