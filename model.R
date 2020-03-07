@@ -4,9 +4,15 @@
 
 #Import
 
-data <- read.csv(file = "chart.csv", sep = ";", header = TRUE)
+data <- read.csv(file = "chart.csv", sep = ";", header = TRUE, col.names = c("Date", "Players"))
 
 data_selection <- data[455:length(data[,2]),1:2]
+
+#The 455th entry is the early access start on Steam on the 28th of February 2018.
+
+data_selection$Date <- substr(data_selection$Date, 1, 10)
+
+data_selection$Date <- as.Date(data_selection$Date, format = "%d.%m.%Y")
 
 #Analysis
 
